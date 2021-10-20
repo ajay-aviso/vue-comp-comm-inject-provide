@@ -22,9 +22,6 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-vue": "^7.19.1"
   },
-  "peerDependencies": {
-    "eslint": ">=7.11.0"
-  },
   "prettier": {
     "singleQuote": true
   }
