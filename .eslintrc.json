@@ -1,14 +1,13 @@
 {
     "env": {
-        "browser": true,
-        "es2021": true
+        "browser": true
     },
     "extends": [
         "plugin:vue/essential",
         "airbnb-base"
     ],
     "parserOptions": {
-        "ecmaVersion": 13
+        "ecmaVersion": 8
     },
     "plugins": [
         "vue"

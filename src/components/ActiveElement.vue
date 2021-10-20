@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section v-if="topicTitle || text">
     <h2>{{ topicTitle }}</h2>
     <p>{{ text }}</p>
   </section>

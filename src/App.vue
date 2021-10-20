@@ -33,9 +33,9 @@ export default {
     };
   },
   provide() {
-    return { 
+    return {
       topics: this.topics,
-      selectTopic: this.activateTopic
+      selectTopic: this.activateTopic,
     };
   },
   methods: {
@@ -49,10 +49,10 @@ export default {
         id: 'events',
         title: 'Events',
         description: 'Events are important in Vue',
-        fullText: 'Events allow you to trigger code on demand!'
+        fullText: 'Events allow you to trigger code on demand!',
       });
     }, 3000);
-  }
+  },
 };
 </script>
 
